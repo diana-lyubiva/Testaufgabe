@@ -1,0 +1,38 @@
+.img-wrapper img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section:nth-child(odd){
+    background-color: #f3f4f7;
+}
+
+.stat-number{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(33, 111, 255);
+}
+
+.service-card{
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    height: 100%;
+    padding: 24px;
+    transition: border-color .25s, transform .25s;
+}
+
+.service-card:hover{
+    border-color: rgb(33, 111, 255);
+    transform: translateY(-4px);
+}
+
+footer{
+    background-color: darkgrey;
+    padding: 50px 0;
+}
